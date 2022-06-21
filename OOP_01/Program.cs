@@ -7,11 +7,19 @@
         {
             Console.Write("Введите число точек на плоскости = ");
             var quantityAsString = Console.ReadLine();
+<<<<<<< HEAD
             var quantity = Convert.ToInt32(quantityAsString);
 
             Point[] points = new Point [quantity];
 
             for (int i = 0; i < quantity; i++)
+=======
+            var pointsQuantity = Convert.ToInt32(quantityAsString);
+
+            Point[] points = new Point [pointsQuantity];
+
+            for (int i = 0; i < pointsQuantity; i++)
+>>>>>>> 976970f (Initial commit)
             {
                 Console.Write("Введите имя точки {0}: ", i+1);
                 var userPointName = Console.ReadLine();
@@ -28,7 +36,12 @@
                 points[i] = point;
             }
             
+<<<<<<< HEAD
             if (quantity == 3)
+=======
+            
+            if (pointsQuantity == 3)
+>>>>>>> 976970f (Initial commit)
             {
                 Figure triangle = new Figure(points[0], points[1], points [2]); 
                 
@@ -38,7 +51,11 @@
 
                 triangle.PerimetrCalculator(firstSideLength, secondSideLength, thirdSideLength);
             }
+<<<<<<< HEAD
             else if (quantity == 4)
+=======
+            else if (pointsQuantity == 4)
+>>>>>>> 976970f (Initial commit)
             {
                 Figure guadrilateral = new Figure(points[0],points[1],points[2], points[3]);
                 
@@ -51,11 +68,15 @@
             }
             else
             {
+<<<<<<< HEAD
                 Figure pentagon = new Figure(points[0].Abscissa, points[0].Ordinate,
                     points[1].Abscissa, points[1].Ordinate,
                     points[2].Abscissa, points[2].Ordinate,
                     points[3].Abscissa, points[3].Ordinate,
                     points[4].Abscissa, points[4].Ordinate);
+=======
+                Figure pentagon = new Figure(points[0],points[1],points[2], points[3], points[4]);
+>>>>>>> 976970f (Initial commit)
                 
                 double firstSideLength = pentagon.LengthSide(points[0].Abscissa, points[0].Ordinate, points[1].Abscissa, points[1].Ordinate);
                 double secondSideLength = pentagon.LengthSide(points[1].Abscissa, points[1].Ordinate, points[2].Abscissa, points[2].Ordinate);
