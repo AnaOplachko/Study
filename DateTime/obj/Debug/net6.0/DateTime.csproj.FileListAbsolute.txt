@@ -1,0 +1,5 @@
+/Users/user/RiderProjects/OOP_01/DateTime/obj/Debug/net6.0/DateTime.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/DateTime/obj/Debug/net6.0/DateTime.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/DateTime/obj/Debug/net6.0/DateTime.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/DateTime/obj/Debug/net6.0/DateTime.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/DateTime/obj/Debug/net6.0/DateTime.csproj.CoreCompileInputs.cache

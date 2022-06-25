@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/OOP_09.3/bin/Debug/net6.0/OOP_09.3
+/Users/user/RiderProjects/OOP_01/OOP_09.3/bin/Debug/net6.0/OOP_09.3.deps.json
+/Users/user/RiderProjects/OOP_01/OOP_09.3/bin/Debug/net6.0/OOP_09.3.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/OOP_09.3/bin/Debug/net6.0/OOP_09.3.dll
+/Users/user/RiderProjects/OOP_01/OOP_09.3/bin/Debug/net6.0/OOP_09.3.pdb
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.dll
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/refint/OOP_09.3.dll
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.pdb
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/OOP_09.3.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/OOP_09.3/obj/Debug/net6.0/ref/OOP_09.3.dll

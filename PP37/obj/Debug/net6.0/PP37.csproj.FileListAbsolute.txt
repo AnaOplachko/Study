@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/PP37/bin/Debug/net6.0/PP37
+/Users/user/RiderProjects/OOP_01/PP37/bin/Debug/net6.0/PP37.deps.json
+/Users/user/RiderProjects/OOP_01/PP37/bin/Debug/net6.0/PP37.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/PP37/bin/Debug/net6.0/PP37.dll
+/Users/user/RiderProjects/OOP_01/PP37/bin/Debug/net6.0/PP37.pdb
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.dll
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/refint/PP37.dll
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.pdb
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/PP37.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/PP37/obj/Debug/net6.0/ref/PP37.dll

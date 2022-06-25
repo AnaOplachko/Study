@@ -45,12 +45,12 @@ namespace OOP_08._2
             }
             
             Console.ForegroundColor = (ConsoleColor)userColor;
+
                 
                  Console.WriteLine(userColor);       
                  Console.WriteLine((int)userColor);
                  Console.WriteLine((int)ConsoleColor.Yellow);
             
-
                 /*Printer printer = new Printer(stroka, userColorRequest);
                 printer.Print();
     */
