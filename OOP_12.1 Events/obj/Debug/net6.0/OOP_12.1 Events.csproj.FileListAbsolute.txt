@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/bin/Debug/net6.0/OOP_12.1 Events
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/bin/Debug/net6.0/OOP_12.1 Events.deps.json
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/bin/Debug/net6.0/OOP_12.1 Events.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/bin/Debug/net6.0/OOP_12.1 Events.dll
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/bin/Debug/net6.0/OOP_12.1 Events.pdb
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.dll
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/refint/OOP_12.1 Events.dll
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.pdb
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/OOP_12.1 Events.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/OOP_12.1 Events/obj/Debug/net6.0/ref/OOP_12.1 Events.dll
