@@ -27,6 +27,10 @@
             var interval = today.DayNumber - userBirthday.DayNumber;
             Console.WriteLine("Прожил: {0} дней", interval);
 
+            DateOnly firstDay = new DateOnly(1, 1, 1);
+            interval = today.DayNumber - firstDay.DayNumber;
+            Console.WriteLine("Со дня рождения Христа: {0} дней", interval);
+
             Console.ReadLine();
 
             int daysToBirthday = 0; 

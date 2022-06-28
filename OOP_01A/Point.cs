@@ -1,6 +1,6 @@
 namespace OOP_01A;
 
-public class Point
+public readonly struct Point
 {
     private readonly int _abscissa;
     private readonly int _ordinate;

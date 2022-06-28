@@ -4,7 +4,7 @@ namespace OOP_06._4
 {
   static class ExtensionClass
   {
-    public static int[] ExtensionMethod(this int[] value)
+    public static int[] Sort(this int[] value)
     {
       Console.WriteLine("Такой наш массив до сортировки:");
       
@@ -37,7 +37,7 @@ namespace OOP_06._4
         array[i] = randomNum.Next(100);
       }
 
-      array = array.ExtensionMethod();
+      array = array.Sort();
 
       Console.WriteLine("Вот наш красавец после:");
 
