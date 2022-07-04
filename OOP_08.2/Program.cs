@@ -36,13 +36,15 @@ namespace OOP_08._2
 
             object colorAsObject = Enum.Parse(typeof(Colors), userColorRequest);
             Colors userColor = (Colors)colorAsObject;
+            Console.WriteLine("{0}wwwwwwwwwwwwwwww",userColor);
             
-            if ((int)userColor == (int)(ConsoleColor)userColor)
+            
+            /*if ((int)userColor == (int)(ConsoleColor)userColor)
                 Console.WriteLine(userColor);
             else
             {
                 (int)(Colors)userColor = (int)(ConsoleColor)userColor;
-            }
+            }*/
             
             Console.ForegroundColor = (ConsoleColor)userColor;
 

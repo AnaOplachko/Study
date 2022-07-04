@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/bin/Debug/net6.0/OOP_14.1 Collections
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/bin/Debug/net6.0/OOP_14.1 Collections.deps.json
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/bin/Debug/net6.0/OOP_14.1 Collections.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/bin/Debug/net6.0/OOP_14.1 Collections.dll
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/bin/Debug/net6.0/OOP_14.1 Collections.pdb
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.dll
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/refint/OOP_14.1 Collections.dll
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.pdb
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/OOP_14.1 Collections.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/OOP_14.1 Collections/obj/Debug/net6.0/ref/OOP_14.1 Collections.dll

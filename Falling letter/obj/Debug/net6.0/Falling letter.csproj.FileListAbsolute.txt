@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/Falling letter/bin/Debug/net6.0/Falling letter
+/Users/user/RiderProjects/OOP_01/Falling letter/bin/Debug/net6.0/Falling letter.deps.json
+/Users/user/RiderProjects/OOP_01/Falling letter/bin/Debug/net6.0/Falling letter.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/Falling letter/bin/Debug/net6.0/Falling letter.dll
+/Users/user/RiderProjects/OOP_01/Falling letter/bin/Debug/net6.0/Falling letter.pdb
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.dll
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/refint/Falling letter.dll
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.pdb
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/Falling letter.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/Falling letter/obj/Debug/net6.0/ref/Falling letter.dll

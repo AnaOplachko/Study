@@ -7,53 +7,32 @@
 
  class Program
  {
+
   static void Main()
   {
+   
    int screenHeight = 30;
-
-   Random Index = new Random();
-   int entryIndex = Index.Next(0, 30);
-
+   
    Random randomColumnLength = new Random();
    int columnLength = randomColumnLength.Next(3, 10);
    Console.WriteLine("Длина столбца символов = {0}", columnLength);
 
    Random randomChar = new Random();
-   char[] symbolColumn = new char [screenHeight];
+   char[] symbolColumn = new char [columnLength];
 
-   for (int i = 0; i < screenHeight; i++)
-   {
-    symbolColumn[i] = ' ';
-   }
-
-   Console.WriteLine("entry index = {0}", entryIndex);
-   
-   for (int i = entryIndex; i < (columnLength + entryIndex); i++)
+   for (int i = 0; i < columnLength; i++)
    {
     symbolColumn[i] = Convert.ToChar(randomChar.Next(48, 126));
    }
 
-   for (int i = 0; i < screenHeight; i++)
+   for (int i = 0; i  <  columnLength; i++)
    {
-    Thread.Sleep(500);
-    if (i == entryIndex)
-    {
-     Console.ForegroundColor = ConsoleColor.White;
-     Console.WriteLine(symbolColumn[i]);
-    }
-    else if (i == entryIndex + 1)
-    {
-     Console.ForegroundColor = ConsoleColor.Blue;
-     Console.WriteLine(symbolColumn[i]);
-    }
-    else
-    {
-     {
-      Console.ForegroundColor = ConsoleColor.DarkBlue;
-      Console.WriteLine(symbolColumn[i]);
-     }
-    }
+    Thread.Sleep(1000);
+    Console.WriteLine(symbolColumn[i]);
+
    }
+
+   
   }
  }
 }
@@ -87,10 +66,6 @@
 
    
    
-   
-   
-   
-   
    switch (i)
     {
      case entryIndex:
@@ -106,4 +81,54 @@
       Console.WriteLine(symbolColumn[i]);
       break;
     }
+*/
+
+
+
+/*if (i == 0)
+{
+ Console.ForegroundColor = ConsoleColor.White;
+ Console.WriteLine(symbolColumn[i]);
+}
+else if (i == 1)
+{
+ Console.ForegroundColor = ConsoleColor.Blue;
+ Console.WriteLine(symbolColumn[i]);
+}
+else
+{
+ {
+  Console.ForegroundColor = ConsoleColor.DarkBlue;
+  Console.WriteLine(symbolColumn[i]);
+ }
+}*/
+
+
+
+/*
+  static void WriteSecond()
+  {
+   while (true)
+   {
+    Console.WriteLine("X");
+    Thread.Sleep(10000);
+   }
+  }
+  */
+  
+  /*ThreadStart writeSecond = new ThreadStart(WriteSecond);
+   Thread thread = new Thread(writeSecond);
+   thread.Start();
+   */
+   
+   /*
+for (int i = 0; i < screenHeight; i++)
+{
+ symbolColumn[i] = ' ';
+}
+   
+for (int i = 0; i < columnLength; i++)
+{
+ symbolColumn[i] = Convert.ToChar(randomChar.Next(48, 126));
+}
 */

@@ -3,7 +3,7 @@
 namespace OOP_11._3 //мне кажется что задача решена в корне не верно, возможно необходимы два класса кей и валью
 
 {
- class Dictionary<TKey, TValue>
+ public class Dictionary<TKey, TValue>
  {
   private TKey[] key = new TKey[4];
   private TValue[] value = new TValue[4];

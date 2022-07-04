@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "OOP_11.3/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/OOP_11.3.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OOP_11.3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OOP_11.3/1.0.0": {
+      "type": "project",
+      "path": "../OOP_11.3/OOP_11.3.csproj",
+      "msbuildProject": "../OOP_11.3/OOP_11.3.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "OOP_11.3 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/user/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/user/RiderProjects/OOP_01/OOP_18.2/OOP_18.2.csproj",
+      "projectName": "OOP_18.2",
+      "projectPath": "/Users/user/RiderProjects/OOP_01/OOP_18.2/OOP_18.2.csproj",
+      "packagesPath": "/Users/user/.nuget/packages/",
+      "outputPath": "/Users/user/RiderProjects/OOP_01/OOP_18.2/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/user/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/user/RiderProjects/OOP_01/OOP_11.3/OOP_11.3.csproj": {
+              "projectPath": "/Users/user/RiderProjects/OOP_01/OOP_11.3/OOP_11.3.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/Users/user/.dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
