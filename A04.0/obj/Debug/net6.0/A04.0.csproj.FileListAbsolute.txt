@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/A04.0/bin/Debug/net6.0/A04.0
+/Users/user/RiderProjects/OOP_01/A04.0/bin/Debug/net6.0/A04.0.deps.json
+/Users/user/RiderProjects/OOP_01/A04.0/bin/Debug/net6.0/A04.0.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/A04.0/bin/Debug/net6.0/A04.0.dll
+/Users/user/RiderProjects/OOP_01/A04.0/bin/Debug/net6.0/A04.0.pdb
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.dll
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/refint/A04.0.dll
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.pdb
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/A04.0.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/A04.0/obj/Debug/net6.0/ref/A04.0.dll

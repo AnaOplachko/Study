@@ -47,6 +47,7 @@ public class LinkedList<T> : IEnumerable<T>
                     {
                         Console.WriteLine(current.Value);
                         previous.Next = current.Next;
+                        Count--;
                     }
 
                     previous = current;

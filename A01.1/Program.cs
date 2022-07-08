@@ -31,10 +31,14 @@ namespace A01._1
             }
             
             Display(instance, "List");
+
+            Console.WriteLine("Count = {0}", instance.Count);
             
             instance.RemoveEveryFive();
             
             Display(instance, "List without fifth elements");
+
+            Console.WriteLine("Count = {0}", instance.Count);
             
             instance.Add(333);
             

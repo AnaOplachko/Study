@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/bin/Debug/net6.0/A06.1 Graph
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/bin/Debug/net6.0/A06.1 Graph.deps.json
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/bin/Debug/net6.0/A06.1 Graph.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/bin/Debug/net6.0/A06.1 Graph.dll
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/bin/Debug/net6.0/A06.1 Graph.pdb
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.dll
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/refint/A06.1 Graph.dll
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.pdb
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/A06.1 Graph.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/A06.1 Graph/obj/Debug/net6.0/ref/A06.1 Graph.dll
