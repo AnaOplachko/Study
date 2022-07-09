@@ -1,78 +1,34 @@
 namespace A02._3;
 
-public class SimpleQueue<T>
+class PriorityQueue
 {
-    private class Node
+  private Queue<string>[] arrayList;
+  private int n;
+
+  public PriorityQueue(int n)
+  {
+    arrayList = new Queue<string>[n];
+    this.n = n;
+
+    for (int i = 0; i < n; i++)
     {
-        public T Data { get; set; }
-        public Node Next { get; set; }
-        public int Priority { get; set; }
-
-        public Node (T data, Node next, int priority)
-        {
-            Data = data;
-            Next = next;
-            Priority = priority;
-        }
+      arrayList[i] = new Queue<string>();
     }
+  }
 
-    private Node head;
-    private Node tail;
-    private int count;
+  public void Add(string task, int priority)
+  {
+    arrayList[priority - 1].Enqueue(task);
+  }
 
-    public SimpleQueue()
+  public void Show()
+  {
+    for (int i = 0; i < n; i++)
     {
-        head = tail = null;
-        count = 0;
+      foreach (var item in arrayList[i])
+      {
+        Console.WriteLine(item);
+      }
     }
-
-    public void Enqueque(T item, int priority)
-    {
-        if (tail == null)
-        {
-            head = tail = new Node(item, null, priority);
-        }
-        else
-        {
-            if ()
-            
-            tail.Next = new Node(item, null);
-            tail = tail.Next;
-        }
-
-        count++;
-    }
-
-    public T Peek()
-    {
-        if (head == null)
-        {
-            return default(T);
-        }
-
-        return head.Data;
-    }
-    
-    public T Dequeue()         //count?
-    {
-        if (head == null)
-        {
-            return default(T);
-        }
-
-        T result = head.Data;
-        head = head.Next;
-        return result;
-    }
-
-    
-/*
- Реализуйте очередь с приоритетами. В качестве примера используйте список задач работника –
-когда он заканчивает одну задачу, он переходит к следующей (самой приоритетной). Начальник,
-добавляя элемент в очередь, указывает ее приоритет. По сравнению с обычной очередью,
-каждый элемент такой очереди будет иметь свой приоритет.
- 
- */
-
-    
+  }
 }

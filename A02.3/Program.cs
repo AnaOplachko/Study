@@ -4,17 +4,13 @@ class Program
 {
     static void Main()
     {
-        SimpleQueue<String> queue = new SimpleQueue<string>();
+        PriorityQueue taskList = new PriorityQueue(4);
         
-        queue.Enqueque("Hello");
-        queue.Enqueque("world");
-        queue.Enqueque("!!!!!");
-
-        Console.WriteLine(queue.DequequeLast());
-        Console.WriteLine(queue.DequequeLast());
+        taskList.Add("first task p1", 1);
+        taskList.Add("second task p1", 1);
+        taskList.Add("first task p2", 2);
+        taskList.Add("third task p1", 1);
         
-        
-        //очередь из очередей с каждым приоритетом
-        //массив очередей
+        taskList.Show();
     }
 }
