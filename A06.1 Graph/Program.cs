@@ -19,6 +19,7 @@ class Program
         Graph g = new Graph(arr);
         
         g.BFS(0);
+        
 
         Console.WriteLine(g.RoadsNumber() + "roads");
         

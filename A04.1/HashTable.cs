@@ -59,7 +59,7 @@ public class HashTable<TKey, TValue>
                 _array[index] = new LinkedList<HashTableItem<TKey, TValue>>();
             }
 
-            var hashTableItem = new HashTableItem<TKey, TValue>(key, value);
+            HashTableItem<TKey, TValue> hashTableItem = new HashTableItem<TKey, TValue>(key, value);
 
             var listNode = new LinkedListNode<HashTable<TKey, TValue>>(hashTableItem);
 

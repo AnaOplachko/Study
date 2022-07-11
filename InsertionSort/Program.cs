@@ -18,7 +18,6 @@ class Program
         }
     }
     
-
     static private int FindInsertionIndex(int[] items, int valueToInsert)
     {
         for (int i = 0; i < items.Length; i++)

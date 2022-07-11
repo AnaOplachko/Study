@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/FamilyTree/bin/Debug/net6.0/FamilyTree
+/Users/user/RiderProjects/OOP_01/FamilyTree/bin/Debug/net6.0/FamilyTree.deps.json
+/Users/user/RiderProjects/OOP_01/FamilyTree/bin/Debug/net6.0/FamilyTree.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/FamilyTree/bin/Debug/net6.0/FamilyTree.dll
+/Users/user/RiderProjects/OOP_01/FamilyTree/bin/Debug/net6.0/FamilyTree.pdb
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.dll
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/refint/FamilyTree.dll
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.pdb
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/FamilyTree.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/FamilyTree/obj/Debug/net6.0/ref/FamilyTree.dll

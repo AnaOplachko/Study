@@ -1,3 +1,5 @@
+using System.Collections;
+
 namespace A07._1;
 
 public class Graph
@@ -177,111 +179,92 @@ public class Graph
         }
     }
     
-    /*public void DoWaveCheck(int[,] arr, int i, int j, int k, int n, int m, Queue<KeyValuePair<int, int>> turn)
-    {
-        if (IsValid(i - 1, j, n, m) && arr[i - 1, j] == 1)
-        {
-            arr[i - 1, j] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i - 1, j));
-        }
-
-        if (IsValid(i - 1, j + 1, n, m) && arr[i - 1, j + 1] == 1)
-        {
-            arr[i - 1, j + 1] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i - 1, j + 1));
-        }
-
-        if (IsValid(i, j + 1, n, m) && arr[i, j + 1] == 1)
-        {
-            arr[i, j + 1] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i, j + 1));
-        }
-
-        if (IsValid(i + 1, j + 1, n, m) && arr[i + 1, j + 1] == 1)
-        {
-            arr[i + 1, j + 1] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i + 1, j + 1));
-        }
-
-        if (IsValid(i + 1, j, n, m) && arr[i + 1, j] == 1)
-        {
-            arr[i + 1, j] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i + 1, j));
-        }
-
-        if (IsValid(i + 1, j - 1, n, m) && arr[i + 1, j - 1] == 1)
-        {
-            arr[i + 1, j - 1] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i + 1, j - 1));
-        }
-
-        if (IsValid(i, j - 1, n, m) && arr[i, j - 1] == 1)
-        {
-            arr[i, j - 1] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i, j - 1));
-        }
-
-        if (IsValid(i - 1, j - 1, n, m) && arr[i - 1, j - 1] == 1)
-        {
-            arr[i - 1, j - 1] = k;
-            turn.Enqueue(new KeyValuePair<int, int>(i - 1, j - 1));
-        }
-    }*/
-
+    //дальше домашка
+    
     public bool CheckPath(int[,] array, int x1, int y1, int x2, int y2, int n, int m)
     {
         if (array[x1, y1] == 0 || array[x2, y2] == 0)
             return false;
 
-        int k = 2;
-        
-        array[x1, y1] = k;
-
-        Queue<KeyValuePair<int, int>> path = new Queue<KeyValuePair<int, int>>();
-
-        path.Enqueue(new KeyValuePair<int, int>(x1, y1));
-
-        while (path.Count > 0)
-        {
-            int count = path.Count;
-
-            k++;
-
-            while (count > 0)
-            {
-               KeyValuePair<int, int> point = path.Dequeue();
-               int i = point.Key;
-               int j = point.Value;
-
-               DoWave(array, i, j, k, n, m, path);
-               count--;
-            }
-        }
+        Wave(array, x1, y1, n, m);
 
         return array[x2, y2] > 1 ;
     }
 
-    public void FindShortestPathWithWave(int start, int finish)
+    private void DoWaveForShort()
     {
-        int index = start;
-        int distance = int.MaxValue;
+        //принимает текущую точку
+        //должен ли знать где мы были и не были?
+        //может проводить суммирование пути в ячейки??
+        //что возвращает?
+        //либо делаем обычный вэйв
+    }
 
-        Queue<int> path = new Queue<int>();
-        Queue<int> result = new Queue<int>();
-        result.Enqueue(index);
-        path.Enqueue(index);
+    public void FindShortestPathWithWave(int start, int finish) //без расстояния смотрим кратчайший путь по вершинам
+    {
+        //создаем матрицу для вэйвов
 
-        while (path.Count > 0)
+        int[,] planarGraph = new int[n, n];
+        
+        for (int i = 0; i < n; i++)
         {
-            
-            for (int i = 0; i < 8; i++)
+            for (int j = 0; j < n; j++)
             {
-                if (list[index, i] > 0)
+                if (list[i, j] > 0)
                 {
-                    if (distance < list[index, i])
-                    {
-                        distance = list[index, i];
-                    }
+                    planarGraph[i, j] = 1;
+                }
+            }
+        }
+
+        Queue<KeyValuePair<int, int>> queue = new Queue<KeyValuePair<int, int>>();
+        
+        int k = 2;  //для визуализации волн
+        int current = start;    //текущая точка
+
+        for (int i = 0; i < n; i++)
+        {
+            if (planarGraph[current, i] == 1)
+            {
+                planarGraph[current, i] = k;
+                queue.Enqueue(new KeyValuePair<int, int>(current, i));
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        int startVertex = start;
+        int finishVertex = finish;
+
+        int currentVertex = startVertex;
+
+        bool[] visited = new bool[n];
+        visited[startVertex] = true;
+
+        //int distance = int.MaxValue;
+
+        Stack<int> stack = new Stack<int>();
+        Stack<int> result = new Stack<int>();
+        
+        stack.Push(currentVertex);
+
+        while (stack.Count != 0)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                if (list[currentVertex, i] > 0 && !visited[i])
+                {
+                    visited[i] = true;
+                    stack.Push(currentVertex);
                 }
             }
         }

@@ -28,7 +28,6 @@ public class Graph
         Queue<int> turn = new Queue<int>();
         visited[from] = true;
         turn.Enqueue(from);
-        int road = 0;
 
         while (turn.Count != 0)
         {
@@ -107,7 +106,7 @@ public class Graph
 
         for (int i = 0; i < n; i++)
         {
-            if (list[from, i] != null && !visited[i])
+            if (list[from, i] != 0 && !visited[i])
             {
                 DFS(i, visited);
             }
