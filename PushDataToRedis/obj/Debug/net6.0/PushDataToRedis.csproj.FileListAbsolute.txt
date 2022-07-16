@@ -1,0 +1,15 @@
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/bin/Debug/net6.0/PushDataToRedis
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/bin/Debug/net6.0/PushDataToRedis.deps.json
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/bin/Debug/net6.0/PushDataToRedis.runtimeconfig.json
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/bin/Debug/net6.0/PushDataToRedis.dll
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/bin/Debug/net6.0/PushDataToRedis.pdb
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.csproj.AssemblyReference.cache
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.AssemblyInfo.cs
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.dll
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/refint/PushDataToRedis.dll
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.pdb
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/PushDataToRedis.genruntimeconfig.cache
+/Users/user/RiderProjects/OOP_01/PushDataToRedis/obj/Debug/net6.0/ref/PushDataToRedis.dll
