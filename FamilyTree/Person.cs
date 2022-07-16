@@ -4,7 +4,7 @@ public struct Person
 {
     private int _age = 0;
     private string _name = null;
-    private int index = 0;
+    private int index = 0;//залупа получается
 
     public int Age
     {
@@ -23,11 +23,12 @@ public struct Person
         get;
         private set;
     }
-
+    
     public Person(string name, int age, int index)
     {
         Age = age;
         Name = name;
         Index = index;
     }
+
 }
